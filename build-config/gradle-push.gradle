@@ -41,7 +41,7 @@ afterEvaluate { project ->
                 beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
 
                 pom.groupId = 'com.evernote'
-                pom.artifactId = 'android-sdk'
+                pom.artifactId = 'android-sdk-blinkist'
                 pom.version = VERSION_NAME
 
                 repository(url: getReleaseRepositoryUrl()) {
